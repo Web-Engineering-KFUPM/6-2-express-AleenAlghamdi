@@ -2,6 +2,8 @@ import express from "express";
 import cors from "cors";
 import { getRandomQuote } from "./quotes.js";
 
+const app = express();
+const PORT = 3000;
 {/*write code for cors*/}
 
 
