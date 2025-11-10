@@ -4,9 +4,8 @@ import { getRandomQuote } from "./quotes.js";
 
 const app = express();
 const PORT = 3000;
-{/*write code for cors*/}
 
-
+app.use(cors());
 {/*write code to define routes*/}
 
 
